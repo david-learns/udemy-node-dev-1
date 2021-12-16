@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('client side js file is loaded');
-
 /**
  * for overly complicated usage of readable stream see
  * https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams
