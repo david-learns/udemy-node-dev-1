@@ -1,0 +1,50 @@
+body {
+    background-color: darkblue;
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+img {
+    height: 160px;
+}
+
+.empty {
+    visibility: hidden;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer {
+    color: rgb(180, 180, 180);
+    border-top: 1px solid rgb(160, 160, 160);
+    margin-top: 50vh;
+}
