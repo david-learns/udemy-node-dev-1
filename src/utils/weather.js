@@ -12,7 +12,7 @@ const weather = (latitude, longitude, callback) => {
         } else if (!latitude || !longitude) {
             callback(new Error('latitude and/or longitude variables missing/bad'));
         } else {
-            callback(null, `${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degrees. It feels like ${body.current.feelslike} degrees.`);
+            callback(null, `${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degrees. It feels like ${body.current.feelslike} degrees. The humidity is ${body.current.humidity}%.`);
         }
     });
 }
