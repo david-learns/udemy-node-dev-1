@@ -9,9 +9,9 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // define paths for express config
-const publicDirectoryPath = path.join(__dirname, '..\\public');
-const viewsPath = path.join(__dirname, '..\\templates\\views');
-const partialPath = path.join(__dirname, '..\\templates\\partials');
+const publicDirectoryPath = path.join(__dirname, '../public');
+const viewsPath = path.join(__dirname, '../templates/views');
+const partialPath = path.join(__dirname, '../templates/partials');
 
 // setup handlebars engine and views location
 app.set('view engine', 'hbs');
